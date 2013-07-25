@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "C:\xup\Zed\OledIp\OledIp.srcs\sources_1\edk\system\pcores\oled_v1_00_a\devl\synthesis\oled_xst.prj"
+-top oled
+-p virtex6
+-ofn "C:\xup\Zed\OledIp\OledIp.srcs\sources_1\edk\system\pcores\oled_v1_00_a\devl\synthesis\oled_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib oled_v1_00_a

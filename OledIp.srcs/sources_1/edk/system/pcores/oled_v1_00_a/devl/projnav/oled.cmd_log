@@ -1,0 +1,14 @@
+vhdtdtfi -lib proc_common_v3_00_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd -lib proc_common_v3_00_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd -lib proc_common_v3_00_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd -lib proc_common_v3_00_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd -lib proc_common_v3_00_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd -lib axi_lite_ipif_v1_01_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/address_decoder.vhd -lib axi_lite_ipif_v1_01_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd -lib proc_common_v3_00_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd -lib axi_lite_ipif_v1_01_a D:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd -lib work ../../hdl/verilog/user_logic.v -lib work ../../hdl/vhdl/oled.vhd -prj oled -o oled.spl -module oled -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq oled.spl C:/xup/Zed/OledIp/OledIp.srcs/sources_1/edk/system/pcores/oled_v1_00_a/devl/projnav/oled.sym 
+xst -intstyle ise -ifn "C:/xup/Zed/OledIp/OledIp.srcs/sources_1/edk/system/pcores/oled_v1_00_a/devl/projnav/oled.xst" -ofn "C:/xup/Zed/OledIp/OledIp.srcs/sources_1/edk/system/pcores/oled_v1_00_a/devl/projnav/oled.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-1 oled.ngc oled.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o oled_map.ncd oled.ngd oled.pcf 
+par -w -intstyle ise -ol high -mt off oled_map.ncd oled.ncd oled.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml oled.twx oled.ncd -o oled.twr oled.pcf 
+bitgen -intstyle ise -f oled.ut oled.ncd 
+xst -intstyle ise -ifn "C:/xup/Zed/OledIp/OledIp.srcs/sources_1/edk/system/pcores/oled_v1_00_a/devl/projnav/oled.xst" -ofn "C:/xup/Zed/OledIp/OledIp.srcs/sources_1/edk/system/pcores/oled_v1_00_a/devl/projnav/oled.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-1 oled.ngc oled.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o oled_map.ncd oled.ngd oled.pcf 
+par -w -intstyle ise -ol high -mt off oled_map.ncd oled.ncd oled.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml oled.twx oled.ncd -o oled.twr oled.pcf 
+bitgen -intstyle ise -f oled.ut oled.ncd 

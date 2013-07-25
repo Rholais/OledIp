@@ -1,0 +1,11 @@
+-batch 
+-create oled 
+-ver 1.00.a 
+-dir "C:\xup\Zed\OledIp\OledIp.srcs\sources_1\edk\system" 
+-lang verilog 
+-bus axi4lite s 
+-rst 
+-reg 1 
+-xps 
+-ise 
+-driver 

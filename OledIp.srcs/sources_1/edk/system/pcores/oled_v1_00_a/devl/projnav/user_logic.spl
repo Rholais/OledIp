@@ -1,0 +1,16 @@
+[Inputs]
+Bus2IP_Clk
+Bus2IP_Resetn
+=Bus2IP_Data[31:0]=
+=Bus2IP_BE[3:0]=
+=Bus2IP_RdCE[0:0]=
+=Bus2IP_WrCE[0:0]=
+[Outputs]
+IP2Bus_RdAck
+IP2Bus_WrAck
+IP2Bus_Error
+=IP2Bus_Data[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel user_logic
+

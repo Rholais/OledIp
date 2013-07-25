@@ -1,0 +1,12 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="C:\xup\Zed\OledIp\OledIp.srcs\sources_1\edk\system\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\oled_0.jpg" SVGNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\oled_0.svg" TMPSVGFN="C:\xup\Zed\OledIp\OledIp.srcs\sources_1\edk\system\__xps\.dswkshop\oled_0.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.jpg" SVGNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\axi_interconnect_1.svg" TMPSVGFN="C:\xup\Zed\OledIp\OledIp.srcs\sources_1\edk\system\__xps\.dswkshop\axi_interconnect_1.svg"/>
+
+  <RENDERIMG RASNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="C:\xup\Zed\OledIp\OledIp.sdk\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="C:\xup\Zed\OledIp\OledIp.srcs\sources_1\edk\system\__xps\.dswkshop\system_blkd.svg"/>
+
+</RENDERBATCH>

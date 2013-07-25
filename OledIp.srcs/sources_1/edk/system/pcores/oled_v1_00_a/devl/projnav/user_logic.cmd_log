@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/xup/Zed/OledIp/OledIp.srcs/sources_1/edk/system/pcores/oled_v1_00_a/hdl/verilog/user_logic.v -lang verilog -prj oled -o user_logic.spl -module user_logic -template D:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq user_logic.spl C:/xup/Zed/OledIp/OledIp.srcs/sources_1/edk/system/pcores/oled_v1_00_a/devl/projnav/user_logic.sym 
