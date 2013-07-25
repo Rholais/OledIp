@@ -35,8 +35,8 @@
 #include "platform.h"
 
 void print(char *str);
-/*
-int main()
+
+int main0()
 {
     init_platform();
 
@@ -44,4 +44,4 @@ int main()
 
     return 0;
 }
-*/
+
