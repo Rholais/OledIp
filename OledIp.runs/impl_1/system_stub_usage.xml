@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Wed Jul 24 09:54:10 2013"><group name="NetStatistics">
+<DesignStatistics TimeStamp="Sat Jan 04 17:13:02 2014"><group name="NetStatistics">
 <item name="NumNets_Active" rev="2">
 <attrib name="value" value="671"/></item>
 <item name="NumNets_Gnd" rev="2">
@@ -144,7 +144,7 @@
 <attrib name="value" value="51"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Wed Jul 24 09:54:10 2013"><group name="SiteSummary">
+<DeviceUsage TimeStamp="Sat Jan 04 17:13:02 2014"><group name="SiteSummary">
 <item name="BUFG" rev="2">
 <attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
 <item name="BUFG_BUFG" rev="2">
@@ -181,7 +181,7 @@
 <attrib name="total" value="1000000"/><attrib name="used" value="111"/></item>
 </group>
 </DeviceUsage>
-<ReportConfigData TimeStamp="Wed Jul 24 09:54:10 2013"><group name="REG_INIT">
+<ReportConfigData TimeStamp="Sat Jan 04 17:13:02 2014"><group name="REG_INIT">
 <item name="CK" rev="2">
 <attrib name="CK" value="159"/><attrib name="CK_INV" value="0"/></item>
 <item name="FFINIT" rev="2">
@@ -212,7 +212,7 @@
 <attrib name="ASYNC" value="7"/><attrib name="SYNC" value="6"/></item>
 </group>
 </ReportConfigData>
-<ReportPinData TimeStamp="Wed Jul 24 09:54:10 2013"><group name="PS7_PS7">
+<ReportPinData TimeStamp="Sat Jan 04 17:13:02 2014"><group name="PS7_PS7">
 <item name="DDRA0" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="DDRA1" rev="2">

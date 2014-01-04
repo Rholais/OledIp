@@ -1,8 +1,8 @@
 /*
- * font.h
+ *	font.h
  *
- *  Created on: 2012-12-16
- *      Author: Administrator
+ *  Created on: 2014-01-04
+ *	Author: Rholais
  */
 
 #ifndef FONT_H_

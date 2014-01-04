@@ -1,7 +1,7 @@
 Release 14.6 par P.68d (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ASUS-S400::  Wed Jul 24 09:52:36 2013
+ASUS-S400::  Sat Jan 04 17:11:08 2014
 
 par -intstyle pa -w system_stub.ncd system_stub_routed.ncd 
 
@@ -43,33 +43,33 @@ Router effort level (-rl):    High
 
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 15 secs 
-Finished initial Timing Analysis.  REAL time: 15 secs 
+Starting initial Timing Analysis.  REAL time: 18 secs 
+Finished initial Timing Analysis.  REAL time: 18 secs 
 
 Starting Router
 
 
-Phase  1  : 3090 unrouted;      REAL time: 17 secs 
+Phase  1  : 3090 unrouted;      REAL time: 19 secs 
 
-Phase  2  : 1270 unrouted;      REAL time: 17 secs 
+Phase  2  : 1270 unrouted;      REAL time: 19 secs 
 
-Phase  3  : 443 unrouted;      REAL time: 18 secs 
+Phase  3  : 443 unrouted;      REAL time: 20 secs 
 
-Phase  4  : 443 unrouted; (Setup:0, Hold:1462, Component Switching Limit:0)     REAL time: 21 secs 
+Phase  4  : 443 unrouted; (Setup:0, Hold:1462, Component Switching Limit:0)     REAL time: 25 secs 
 
 Updating file: system_stub_routed.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 22 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 25 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 22 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 25 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 22 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 25 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 22 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:1239, Component Switching Limit:0)     REAL time: 25 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 22 secs 
-Total REAL time to Router completion: 22 secs 
-Total CPU time to Router completion: 21 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
+Total REAL time to Router completion: 26 secs 
+Total CPU time to Router completion: 24 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -128,10 +128,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 23 secs 
-Total CPU time to PAR completion: 22 secs 
+Total REAL time to PAR completion: 27 secs 
+Total CPU time to PAR completion: 26 secs 
 
-Peak Memory Usage:  480 MB
+Peak Memory Usage:  517 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

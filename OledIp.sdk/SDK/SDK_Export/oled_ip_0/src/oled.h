@@ -1,25 +1,33 @@
 /*
  * oled.h
  *
- *  Created on: 2012-12-16
- *      Author: Administrator
+ *  Created on: 2014-1-4
+ *      Author: lhch
  */
 
 #ifndef OLED_H_
 #define OLED_H_
-#include "xil_types.h"				// 数据类型定义
+
+/*
+ * oled.h
+ *
+ *  Created on: 2012-12-16
+ *      Author: Administrator
+ */
+
+#include "xil_types.h"                                // 数据类型定义
 #include "xil_io.h"
 
 extern int usleep(unsigned int useconds);
 
 #define OLED_BASE_ADDR 0X7a800000
 
-#define OLED_DC			0
-#define OLED_RES		1
-#define OLED_SCLK		2
-#define OLED_SDIN		3
-#define OLED_VBAT		4
-#define OLED_VDD		5
+#define OLED_DC                        0
+#define OLED_RES                1
+#define OLED_SCLK                2
+#define OLED_SDIN                3
+#define OLED_VBAT                4
+#define OLED_VDD                5
 //Xil_Out32(OLED_BASE_ADDR,1<<i);
 
 // DC

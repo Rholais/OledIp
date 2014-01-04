@@ -20,9 +20,9 @@
       </File>
       <File Name="implementation/system.ngc" Type="NGC">
         <Description>This is NGC file</Description>
-        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1374580215"/>
-        <UsedIn Val="IMPLEMENTATION"/>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1374630006"/>
         <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
       </File>
       <File Name="hdl/system.v" Type="VERILOG">
         <Description>This is VERILOG file</Description>
@@ -37,14 +37,14 @@
       <File Name="implementation/system_processing_system7_0_wrapper.ngc" Type="NGC">
         <Description>This is NGC file</Description>
         <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1374629971"/>
-        <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
       </File>
       <File Name="implementation/system_oled_0_wrapper.ngc" Type="NGC">
         <Description>This is NGC file</Description>
         <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1374629991"/>
-        <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
       </File>
       <File Name="implementation/system_axi_interconnect_1_wrapper.ncf" Type="NCF">
         <Description>This is NCF file</Description>
@@ -54,8 +54,8 @@
       <File Name="implementation/system_axi_interconnect_1_wrapper.ngc" Type="NGC">
         <Description>This is NGC file</Description>
         <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1374629971"/>
-        <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
       </File>
       <File Name="data/system.ucf" Type="UCF">
         <Description>This is UCF file</Description>
@@ -64,7 +64,7 @@
       </File>
       <File Name="data/system.ncf" Type="NCF">
         <Description>This is NCF file</Description>
-        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1374629992"/>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1375513528"/>
         <UsedIn Val="IMPLEMENTATION"/>
       </File>
     </FileCollection>
